@@ -1,5 +1,4 @@
 from turtle import Turtle
-# INITIAL_POSITION = [(-300, 0), (-300, -18), (-300, -36)]
 UP = 90
 DOWN = 270
 
@@ -21,4 +20,5 @@ class Paddel(Turtle):
     def go_down(self):
         new_y = self.ycor() - 20
         self.goto(self.xcor(), new_y)
+
 
