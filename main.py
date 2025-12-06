@@ -64,19 +64,6 @@ while game_is_on:
         x_speed *= -1
         move_speed = 0.1
 
-
-
     ball.move(x_speed, y_speed)
-
-
-
-
-
-
-
-
-
-
-
 
 screen.exitonclick()
